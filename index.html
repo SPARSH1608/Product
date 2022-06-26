@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<link rel="stylesheet" href="./design/style.css">
+<link rel="icon" href="../product-preview-card-component-main/images/favicon-32x32.ico">
+<link
+  href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@100;500;700&display=swap"
+  rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <title>Frontend Mentor | Product preview card component</title>
+
+<style>
+  .card {
+    height: 400px;
+    width: 600px;
+    margin: 150px auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px
+}
+
+.product {
+    width: 300px;
+    height: 400px;
+    float: left;
+    border-radius: 15px;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+
+}
+
+.btn {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    background: hsl(158, 36%, 37%);
+    padding: 12px 72px 12px 72px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+    border-style: none;
+
+    position: absolute;
+    top: 330px;
+    margin-left: 10px;
+}
+
+.btn:hover {
+    background: #183e2f;
+    text-decoration: none;
+}
+
+p {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 3px;
+
+}
+
+.heading {
+
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    word-spacing: 10px;
+    padding-top: 20px;
+    font-size: small;
+}
+
+.head {
+    font-family: 'Fraunces', serif;
+
+}
+
+.matter {
+    padding-left: 320px;
+    position: relative;
+}
+
+.p1 {
+    color: hsl(158, 36%, 37%);
+    display: inline-block;
+    font-family: 'Fraunces', serif;
+}
+
+.p2 {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    display: inline;
+    position: absolute;
+    right: 50px;
+    top: 256px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+
+}
+</style>
+  
+</head>
+<body>
+<div class="card">
+  <img class="product" src="./images/image-product-desktop.jpg" alt="product-img">
+  <div class="matter">
+  <h3 class="heading">PERFUME</h3>
+
+  <h2 class="head">Gabrielle <br> Essence Eau De <br> Parfum</h2>
+
+  <p> A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+  Perfumer-Creator for the House of CHANEL.</p>
+  <h1 class="p1">$149.99</h1>
+  <h5 class="p2">$169.99</h5>
+  <br>
+    <button class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart"
+      viewBox="0 0 16 16">
+      <path
+        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+    </svg>  &nbsp; Add to Cart</button>
+  </div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/SPARSH1608">Sparsh Goel</a>.
+   
+  </div>
+</body>
+</html>

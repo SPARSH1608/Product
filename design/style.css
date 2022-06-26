@@ -1,0 +1,89 @@
+.card {
+    height: 400px;
+    width: 600px;
+    margin: 150px auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px
+}
+
+.product {
+    width: 300px;
+    height: 400px;
+    float: left;
+    border-radius: 15px
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+
+}
+
+.btn {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    background: hsl(158, 36%, 37%);
+    padding: 12px 72px 12px 72px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+    border-style: none;
+
+    position: absolute;
+    top: 330px;
+    margin-left: 10px;
+}
+
+.btn:hover {
+    background: #183e2f;
+    text-decoration: none;
+}
+
+p {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 3px;
+
+}
+
+.heading {
+
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    word-spacing: 10px;
+    padding-top: 20px;
+    font-size: small;
+}
+
+.head {
+    font-family: 'Fraunces', serif;
+
+}
+
+.matter {
+    padding-left: 320px;
+    position: relative;
+}
+
+.p1 {
+    color: hsl(158, 36%, 37%);
+    display: inline-block;
+    font-family: 'Fraunces', serif;
+}
+
+.p2 {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    display: inline;
+    position: absolute;
+    right: 50px;
+    top: 256px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+
+}
